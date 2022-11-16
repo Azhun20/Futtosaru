@@ -1,0 +1,133 @@
+CRITICAL - 2022-11-09 12:41:13 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 12:41:13 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 12:42:19 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 12:42:19 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 13:14:25 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 13:14:25 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 13:18:52 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 13:18:52 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 13:24:33 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 13:24:33 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 13:27:46 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 13:27:46 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 13:40:16 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/Futtosaru/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/Futtosaru/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/Futtosaru/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-11-09 13:40:16 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/Futtosaru/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/Futtosaru/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/Futtosaru/app/Views/errors/cli/production.php(5): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/Futtosaru/system/Debug/Exceptions.php(234): include('/opt/lampp/htdo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
