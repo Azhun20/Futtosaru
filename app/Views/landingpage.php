@@ -26,7 +26,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
         <div class="container">
             <img class="icn" src="<?= base_url('Asset/img/icon.png') ?>" alt="" width="30">
             <a class="navbar-brand ms-3" href="#">Futtosaru</a>
