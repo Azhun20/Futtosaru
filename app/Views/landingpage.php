@@ -16,6 +16,7 @@
 
     <!-- style -->
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?> ">
+    <link rel="stylesheet" href="<?= base_url('css/respon.css') ?>">
 
     <!-- logo Title -->
     <link rel="icon" href="<?= base_url('Asset/img/icon.png') ?>">
@@ -25,9 +26,9 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100">
         <div class="container">
-            <img src="<?= base_url('Asset/img/icon.png') ?>" alt="" width="30">
+            <img class="icn" src="<?= base_url('Asset/img/icon.png') ?>" alt="" width="30">
             <a class="navbar-brand ms-3" href="#">Futtosaru</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,12 +47,6 @@
                 </div>
             </div>
         </div>
-        <!-- <script type="text/javascript">
-            window.addEventListener("scroll", function() {
-                var header = document.querySelector("nav");
-                header.classList.toggle("navbar", window.scrollY > 0)
-            })
-        </script> -->
     </nav>
 
 
@@ -70,7 +65,7 @@
                 </div>
             </div>
             <!-- <img src="Asset/img/futsal.svg" alt="" class="im1 position-absolute end-0 bottom-0"> -->
-            <img src="<?= base_url('Asset/img/fbl.png') ?>" alt="" class="im2 position-absolute end-0 bottom-0">
+            <img src="<?= base_url('Asset/img/footbar.svg') ?>" alt="" class="im2 position-absolute end-0 bottom-0">
         </div>
     </section>
 
@@ -130,6 +125,7 @@
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="<?= base_url('js/style.js') ?>"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

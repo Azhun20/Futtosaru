@@ -1,5 +1,5 @@
 :root{
-    --pr-color:#CD5C5C;
+    --pr-color:#1BA1E2;
 }
 
 body{
@@ -11,6 +11,15 @@ body{
 .navbar{
     height: 80px;
     z-index: 3;
+}
+.icn{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.nav-color{
+    background: linear-gradient(160deg,var(--pr-color),#000);
+    transition: all ease-in-out 0.5s;
 }
 .navbar-brand{
     font-weight: bold;
@@ -27,7 +36,8 @@ body{
     height: 40px;
     background-color: transparent;
     color: #fff;
-    border: none;
+    border: 4;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -37,6 +47,7 @@ body{
     background-color: #fff;
     color: var(--pr-color);
     border: none;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
 }
@@ -55,13 +66,13 @@ body{
    
 }
 .im2{
-    height: 350px;
-    width: 350px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    height: 500px;
+    width: 500px;
+    margin-bottom: 10px;
 }
 .hero-tagline h1{
-    color: #191970;
+    color: #fff;
+    /* color: #191970; */
     font-weight: 700;
     font-size: 45px;
     line-height: 72px;
@@ -75,7 +86,7 @@ body{
     width: 130px;
     height: 50px;
     font-size: 18px;
-    border-radius: 40px;
+    border-radius: 35px;
     background-color: #000;
     color: #fff;
 }
@@ -102,7 +113,7 @@ h2{
     border-radius: 5px;
     background-color: #fff;
     padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
     transition:all 0.2s ease-in;
 }
 .circle-icon{
