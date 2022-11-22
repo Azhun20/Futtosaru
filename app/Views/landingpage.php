@@ -36,10 +36,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
-                    <a class="nav-link active mx-2" aria-current="page" href="#">Beranda</a>
-                    <a class="nav-link mx-2" href="#">Booking</a>
-                    <a class="nav-link mx-2" href="#">Premium*</a>
-                    <a class="nav-link mx-2" href="#">Event</a>
+                    <a class="nav-link active mx-2" aria-current="page" href="#">Premium</a>
+                    <a class="nav-link active mx-2" href="#">Download</a>
+                    <a class="nav-link active mx-2" href="#">Event</a>
                 </div>
                 <div>
                     <button class="button-primary">Daftar</button>
@@ -120,8 +119,55 @@
 
     <section id="kompetisi"></section>
 
-    <footer class="footer text-center p-3 bg-dark">
-        <p class="text-light">Serve with love <i class="bi bi-badge-hd-fill"></i> by <a href="https://instagram.com/aziiss___?utm_medium=copy_link" class="text-light fw-bold">Futtosaru</a></p>
+    <footer class="footer text-white pt-5 pb-4 bg-dark">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <img src="<?= base_url('Asset/img/icon.png') ?>" alt="">
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-info">Perusahaan</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">STIKI Malang</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Jagoan Hosting</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Midtrans</a></a>
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-info">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Product By</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Bootstrap 5</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">CodeIgniter 4</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Midtrans</a></a>
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-info">Contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Malang, Jawa Timur, Indonesia
+                    </p>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> @aziiss___
+                    </p>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> @_argac
+                    </p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
+                        <p>Copyright 2022 All right reserved by:<a href="" style="text-decoration: none;"><strong class="text-info"> STIKI Malang</strong></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

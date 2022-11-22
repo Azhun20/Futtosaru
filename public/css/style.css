@@ -63,7 +63,6 @@ body{
 .im1{
     height: 400px;
     width: 400px;  
-   
 }
 .im2{
     height: 500px;
@@ -166,7 +165,7 @@ h2{
     font-size: 14px;
     transition:all 0.3s ease-in;
 }
-/* nav.navbar{
-    padding: 5px 100px;
-    background: #fff;
-} */
+/* Footer */
+.footer {
+    background-color: #778899;
+}
