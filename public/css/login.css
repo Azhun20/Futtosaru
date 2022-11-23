@@ -1,0 +1,17 @@
+.login{
+    background-image: url('/Asset/img/image6.png');
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+}
+.btn{
+    border: none;
+    border-radius: 15px;
+}
+.card{
+    background-color: rgba(124, 124, 124, 0.603);
+    border: none;
+    border-radius: 15px;
+}
+.form-control{
+    border-radius: 10px;
+}
