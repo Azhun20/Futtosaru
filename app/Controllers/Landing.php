@@ -12,4 +12,8 @@ class Landing extends BaseController
     {
         return view('login');
     }
+    public function regis()
+    {
+        return view('register');
+    }
 }

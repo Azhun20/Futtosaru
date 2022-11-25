@@ -14,7 +14,7 @@
 <body>
     <section class="login vh-100">
         <div class="container">
-            <h1 class="text-center pt-5 mb-5 text-light">Futtosaru</h1>
+            <h1 class=" pt-5 mb-5 text-light">Futtosaru</h1>
             <div class="card mb-3 mx-auto" style="max-width: 450px;">
                 <div class="row g-0 form">
                     <div class="col-md-10 mx-auto">
