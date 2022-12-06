@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/landingpage', 'Landing::index');
 $routes->get('/login', 'Landing::login');
 $routes->get('/regis', 'Landing::regis');
+$routes->get('/homepage', 'Homepage::index');
 
 /*
  * --------------------------------------------------------------------
