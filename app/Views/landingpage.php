@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <button class="button-primary">Daftar</button>
-                    <button class="button-secondary">Melbu</button>
+                    <button class="button-secondary">Login</button>
                 </div>
             </div>
         </div>
