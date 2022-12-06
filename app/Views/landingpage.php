@@ -42,7 +42,7 @@
                 </div>
                 <div>
                     <button class="button-primary">Daftar</button>
-                    <button class="button-secondary">Masuk</button>
+                    <button class="button-secondary">Melbu</button>
                 </div>
             </div>
         </div>
