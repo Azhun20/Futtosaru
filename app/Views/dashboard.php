@@ -13,7 +13,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
         <div class="container">
             <img class="icn" src="<?= base_url('Asset/img/icon.png') ?>" alt="" width="30">
             <a class="navbar-brand ms-3" href="#">Futtosaru</a>
@@ -36,7 +36,7 @@
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-md-6 hero-tagline my-auto mx-auto">
-                    <h1 class="text-dark">Hai Kamu, Mau Futsal Dimananih?</h1>
+                    <h1>Hai Kamu, Mau Futsal Dimananih?</h1>
                     <div class="btnSearch mx-auto">
                         <input type="text" class="search bg-light ps-4" placeholder="Kota Malang" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
