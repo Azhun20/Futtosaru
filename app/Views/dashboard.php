@@ -35,14 +35,35 @@
     <section id="hero">
         <div class="container h-100">
             <div class="row h-100">
-                <div class="col-md-7 hero-tagline my-auto mx-auto">
+                <div class="col-md-6 hero-tagline my-auto mx-auto">
                     <h1 class="text-dark">Hai Kamu, Mau Futsal Dimananih?</h1>
                     <div class="btnSearch mx-auto">
-                        <input type="text" class="search bg-dark text-light ps-4" placeholder="Kota Malang" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="search bg-light ps-4" placeholder="Kota Malang" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="row my-3">
+                        <div class="col">
+                            <img src="Asset/img/background.jpg" class="card1 mx-3" alt="">
+                            <p>GOR</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/background.jpg" class="card1 mx-3" alt="">
+                            <p>Lapangan Futsal</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/background.jpg" class="card1 mx-3" alt="">
+                            <p>Lapangan Basket</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/background.jpg" class="card1 mx-3" alt="">
+                            <p>Lapangan Voli</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/background.jpg" class="card1 mx-3" alt="">
+                            <p>Lapangan</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 </body>
 

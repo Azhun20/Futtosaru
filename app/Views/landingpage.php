@@ -41,8 +41,8 @@
                     <a class="nav-link active mx-2" href="#">Event</a>
                 </div>
                 <div>
-                    <button class="button-primary">Daftar</button>
-                    <button class="button-secondary">Login</button>
+                    <button type="submit" class="button-primary">Daftar</button>
+                    <button type="submit" class="button-secondary">Login</button>
                 </div>
             </div>
         </div>
