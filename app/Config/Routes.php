@@ -36,7 +36,9 @@ $routes->get('/landingpage', 'Landing::index');
 $routes->get('/login', 'Landing::login');
 $routes->get('/regis', 'Landing::regis');
 $routes->get('/homepage', 'Homepage::index');
-
+$routes->get('/event', 'Event::index');
+$routes->get('/premium', 'Premium::index');
+$routes->get('/booking', 'Homepage::booking');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

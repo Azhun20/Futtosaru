@@ -15,13 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap" rel="stylesheet">
 
     <!-- style -->
-    <link rel="stylesheet" href="<?= base_url('css/style.css') ?> ">
+    <link rel="stylesheet" href="<?= base_url('css/event.css') ?> ">
     <link rel="stylesheet" href="<?= base_url('css/respon.css') ?>">
 
     <!-- logo Title -->
     <link rel="icon" href="<?= base_url('Asset/img/icon.png') ?>">
 
-    <title>Futtosaru</title>
+    <title>Event</title>
 </head>
 
 <body>
@@ -36,13 +36,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
+                    <a class="nav-link mx-2" href="<?= base_url('homepage') ?>">Home</a>
+                    <a class="nav-link mx-2" href="<?= base_url('premium') ?>">Premium</a>
+                    <a class="nav-link active mx-2" aria-current="page" href="<?= base_url('event') ?>">Event</a>
                 </div>
-                <form action="<?= base_url('regis') ?>" class="me-2">
-                    <button type="daftar" class="button-primary">Daftar</button>
-                </form>
-                <form action="<?= base_url('login') ?>">
-                    <button type="login" class="button-secondary">Login</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -52,72 +49,99 @@
     <section id="hero">
         <div class="container h-100">
             <div class="row h-100">
-                <div class="col-md-6 hero-tagline my-auto">
-                    <h1>Booking Anti Ribet
-                        Dapatkan Promo Pengguna
-                        Baru !!
-                    </h1>
-                    <p>Bugarkan diri dengan berolahraga</p>
-                    <p class="fw-bold">Cari Kotamu</p>
-                    <button type="button" class="btn btn-dark btn-lg">MULAI</button>
+                <div class="col-md-6 hero-tagline my-auto mx-auto">
+                    <h1>Hai Kamu, Mau Tau event Didekatmu?</h1>
+                    <div class="btnSearch mx-auto">
+                        <input type="text" class="search bg-light ps-4" placeholder="Kota Malang" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="row my-3">
+                        <div class="col">
+                            <img src="Asset/img/bg5.jpg" class="card1 mx-4" alt="">
+                            <p>Liga Profesional</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/bg5.jpg" class="card1 mx-4" alt="">
+                            <p>Tournament Futsal SMP</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/bg5.jpg" class="card1 mx-4" alt="">
+                            <p>Tournament Futsal SMA/SMK</p>
+                        </div>
+                        <div class="col">
+                            <img src="Asset/img/bg5.jpg" class="card1 mx-4" alt="">
+                            <p>Tournament Futsal LIMA</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- <img src="Asset/img/futsal.svg" alt="" class="im1 position-absolute end-0 bottom-0"> -->
-            <img src="<?= base_url('Asset/img/footbar.svg') ?>" alt="" class="im2 position-absolute end-0 bottom-0">
-        </div>
     </section>
 
     <!-- Layanan Section -->
-    <section id="layanan">
+    <section id="detail">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2>Layanan Kami</h2>
-                    <span class="sub-title">Futtosaru menjadi solusi untuk olahragamu</span>
+                    <h2>Event</h2>
+                    <span class="sub-title">Join Event Terbesar</span>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-md-4 text-center">
                     <div class="card-layanan">
                         <div class="circle-icon position-relative mx-auto">
-                            <img src="<?= base_url('Asset/img/piala.png') ?>" alt="" class="img-event position-absolute top-50 start-50 translate-middle">
+                            <img src="<?= base_url('Asset/img/futsal3.jpg') ?>" alt="" class="img-event position-relative mx-auto">
                         </div>
-                        <h3 class="mt4">Event</h3>
-                        <p class="mt-3">Buat event olahragamu dengan mudah dimanapun,
-                            Dengan banyak opsi lapangan dan promo untuk eventmu
-                        </p>
+                        <h3>Malang</h3>
                     </div>
                 </div>
 
                 <div class="col-md-4 text-center">
                     <div class="card-layanan">
                         <div class="circle-icon position-relative mx-auto">
-                            <img src="<?= base_url('Asset/img/ball.png') ?>" alt="" class="img-event position-absolute top-50 start-50 translate-middle">
+                            <img src="<?= base_url('Asset/img/image6.png') ?>" alt="" class="img-event position-relative mx-auto">
                         </div>
-                        <h3 class="mt4">Lapangan</h3>
-                        <p class="mt-3">Dapatkan harga lapangan termurah dan terbaik,
-                            Dimanapun tempatnya opsi lapangan selalu banyak.
-                        </p>
+                        <h3>Bandung</h3>
+
                     </div>
                 </div>
 
                 <div class="col-md-4 text-center">
                     <div class="card-layanan">
                         <div class="circle-icon position-relative mx-auto">
-                            <img src="<?= base_url('Asset/img/bintang.webp') ?>" alt="" class="img-event position-absolute top-50 start-50 translate-middle">
+                            <img src="<?= base_url('Asset/img/gor.jpeg') ?>" alt="" class="img-event position-relative mx-auto">
                         </div>
-                        <h3 class="mt4">Premium</h3>
-                        <p class="mt-3">Banjir promo dan Benefit,
-                            Olahraga lebih hemat dan dapatkan layanan prioritas.
-                        </p>
+                        <h3>Jakarta</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="<?= base_url('Asset/img/bg7.webp') ?>" alt="" class="img-event position-relative mx-auto">
+                        </div>
+                        <h3>Yogyakarta</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="<?= base_url('Asset/img/bg5.jpg') ?>" alt="" class="img-event position-relative mx-auto">
+                        </div>
+                        <h3>Solo</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="<?= base_url('Asset/img/bg6.jpg') ?>" alt="" class="img-event position-relative mx-auto">
+                        </div>
+                        <h3>Surabaya</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="kompetisi"></section>
-
+    <!-- footer -->
     <footer class="footer text-white pt-5 pb-4 bg-dark">
         <div class="container text-md-left">
             <div class="row text-md-left">
