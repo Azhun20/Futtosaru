@@ -1,0 +1,4 @@
+CRITICAL - 2022-12-07 04:28:34 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\Futtosaru\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\Futtosaru\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}

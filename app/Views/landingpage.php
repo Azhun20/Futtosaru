@@ -37,12 +37,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav mx-auto">
                 </div>
-                <form action="<?= base_url('regis') ?>" class="me-2">
-                    <button type="daftar" class="button-primary">Daftar</button>
-                </form>
-                <form action="<?= base_url('login') ?>">
-                    <button type="login" class="button-secondary">Login</button>
-                </form>
+                <div>
+                    <button type="submit" class="button-primary">Daftar</button>
+                    <button type="submit" class="button-secondary">Login</button>
+                </div>
             </div>
         </div>
     </nav>
