@@ -32,92 +32,51 @@
         </div>
     </nav>
 
-    <!-- Form -->
     <section id="hero">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col mt-5 ms-5">
-                    <div class="card pt-5 mb-3 text-light" style="max-width: 450px;">
-                        <div class="row g-0 form">
-                            <div class="col-md-10 mx-auto">
-                                <div class="card-body text-md-left">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="Email1" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="@gmail.com">
-                                            <div id="emailHelp" class="form-text text-warning">We'll never share your email with anyone else.</div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="noRek" class="form-label">No Rekening</label>
-                                            <input type="text" class="form-control" id="password" placeholder="1300**">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="name" class="form-label">Nama Pengirim</label>
-                                            <input type="text" class="form-control" id="ulangpass">
-                                        </div>
-                                        <label for="ulangpass" class="form-label">Pilih Paket</label>
-                                        <div class="dropdown">
-                                            <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Paket Premium
-                                            </button>
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                <li><a class="dropdown-item" href="#">Beginer</a></li>
-                                                <li><a class="dropdown-item" href="#">Medium</a></li>
-                                                <li><a class="dropdown-item" href="#">Profesional</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="button text-center mt-3">
-                                            <button type="submit" class="btn btn-success col-md-6">Bayar</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-light">Daftar Paket</h1>
+                    <p class="text-light">Pilih Paket Premium terbaikmu</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <h3 class="mt4">Beginer</h3>
+                        <h4 class="mt-3">Dengan Hanya Rp.5000 /Hari dapatkan potongan Booking hingga 30%
+                                        dan buat eventmu lebih keren
+                        </h4>
+                        <h3 class="mt-2 text-start">Rp.150.000,-</h3>
+                        <button type="button" class="btn btn-dark btn-lg">Beli</button>
                     </div>
                 </div>
-                <div class="col mt-5 my-100">
-                    <div class="p-3 bg-transparent mt-5">
-                        <h2 class="text-center">Daftar Premium</h2>
-                        <div class="row mt-5">
-                            <div class="col-md-4 text-center">
-                                <div class="card-layanan bg-dark">
-                                    <div class="circle-icon position-relative mx-auto">
-                                        <h3>Beginer</h3>
-                                    </div>
-                                    <p>Dengan Hanya Rp.5000 /Hari dapatkan potongan Booking hingga 30%
-                                        dan buat eventmu lebih keren</p>
-                                    <p class="txt1">Rp.150.000,-</p>
-                                </div>
-                            </div>
 
-                            <div class="col-md-4 text-center">
-                                <div class="card-layanan bg-dark">
-                                    <div class="circle-icon position-relative mx-auto">
-                                        <h3>Medium</h3>
-                                        <p>Dapatkan Promo membuat event hingga 40% Dengan Mulai
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <h3 class="mt4">Medium</h3>
+                        <h4 class="mt-3">Dapatkan Promo membuat event hingga 40% Dengan Mulai
                                             dari Rp.10.000 /Hari saja
-                                        </p>
-                                        <p class="txt1">Rp.300.000,-</p>
-                                    </div>
-                                </div>
-                            </div>
+                        </h4>
+                        <h3 class="mt-4 text-start">Rp.300.000,-</h3>
+                        <button type="button" class="btn btn-dark btn-lg">Beli</button>
+                    </div>
+                </div>
 
-                            <div class="col-md-4 text-center">
-                                <div class="card-layanan bg-dark">
-                                    <div class="circle-icon position-relative mx-auto">
-                                        <h3>Profesional</h3>
-                                        <p>Dapatkan Promo terbaik, tampilkan eventmu teratas
-                                            dan Dapatkan layanan prioritas</p>
-                                        <p class="txt1">Rp.400.000,-</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-4 text-center">
+                    <div class="card-layanan">
+                        <h3 class="mt4">Profesional</h3>
+                        <h4 class="mt-3">Dapatkan Promo terbaik, tampilkan eventmu teratas
+                                            dan Dapatkan layanan prioritas
+                        </h4>
+                        <h3 class="mt-4 text-start">Rp.400.000,-</h3>
+                        <button type="button" class="btn btn-dark btn-lg">Beli</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Java Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
