@@ -20,15 +20,17 @@
                     <div class="col-md-10 mx-auto">
                         <div class="card-body text-md-left">
                             <h1 class="card-title text-center text-light">Login</h1>
-                            <div class="inputText">
-                                <input type="text" class="form-control mt-5" id="formGroupExampleInput" placeholder="Email">
-                                <input type="text" class="form-control mt-5 mb-4" id="formGroupExampleInput" placeholder="Password">
-                            </div>
-                            <div class="buttonInput">
+                            <form action="<?= base_url('homepage') ?>">
+                                <div class="inputText">
+                                    <input type="text" class="form-control mt-5" id="formGroupExampleInput" placeholder="Email">
+                                    <input type="text" class="form-control mt-5 mb-4" id="formGroupExampleInput" placeholder="Password">
+                                </div>
                                 <button type="button" class="btn btn-primary col-md-12 mt-3">Login</button>
-                                <label for="" class="text-light mt-3">Belum punya akun?</label>
+                            </form>
+                            <label for="" class="text-light mt-3">Belum punya akun?</label>
+                            <form method="get" action="<?= base_url(); ?>/regis">
                                 <button type="button" class="btn btn-success col-md-12 mb-3">Daftar</button>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
